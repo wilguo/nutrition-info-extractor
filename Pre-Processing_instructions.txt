@@ -1,0 +1,8 @@
+Instructions for Pre-processing the Image
+
+1. Upload the image you wish to preprocess into google drive
+2. Replace the variable img_path with the path to your image
+3. Run the last block of code in the python notebook where it calls the function pre_process_img()
+4. The new pre-processed image will placed in your google drive folder
+ 
+NOTE: There will be other images that are generated and placed inside your google drive. These are the intermediary images obtained from applying different image transformations to the original image.

@@ -1,0 +1,8 @@
+# Pre-requisites:
+Please download this folder: https://drive.google.com/open?id=1xyssfNT-zIv7bN5jVhStAGzHLWj3FJSL
+
+and put it in your main google drive. This is where some sample images are located and where the master keyword list is (for the OCR step)
+
+You can rename it whatever you like, and put it wherever you like, but make sure the folder you downloaded is somewhere in your google drive! Then in the section under 'Python Globals', please set base_dir to point to whatever you renamed it to (if you didn't rename it and you put it in your main directory, then you don't need to do anything about that!)
+
+Inside that folder, you can put in your outputted images from the pre-processing step inside input_dataset. There are variables in the file which will allow you to select certain images to run the OCR step + postprocessing (these variables will be indicated)
